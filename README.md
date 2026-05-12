@@ -1,45 +1,55 @@
-# Machine Learning Lab Repository
-This repository hosts laboratory assignments and practical exercises covering binary classification, optimization techniques, and click-through rate (CTR) prediction.
+# Machine Learning Portfolio
 
-# Contents
-## 1. Binary Classification and Logistic Models
-This notebook explores the transition from theoretical classifiers to practical implementations of logistic regression.
+This repository contains a collection of laboratory assignments focused on the mathematical foundations and practical implementations of Machine Learning algorithms. The projects transition from classical statistical methods to modern optimization techniques using **PyTorch**.
 
-- Gaussian Mixtures: Implementation of a Bayes classifier for synthetic binary classification problems.
+---
 
-- Linear Discriminant Analysis (LDA): Building and comparing LDA against logistic models.
+## 📂 Repository Contents
 
-- Feature Engineering: Enhancing models using polynomial feature expansion.
+### 1. [Binary Classification & Logistic Models](TP_Logistic_regression_Mahmoud_BAJJOU.ipynb)
+A deep dive into the mechanics of classification, moving from generative to discriminative models.
+* **Gaussian Mixture Models:** Implementation of the Bayes classifier for synthetic datasets.
+* **Decision Boundaries:** Visualizing and comparing Linear Discriminant Analysis (LDA) vs. Logistic Regression.
+* **Feature Engineering:** Utilizing polynomial feature expansion to solve non-linear classification problems.
+* **Model Evaluation:** Precision analysis using ROC Curves and AUC (Area Under Curve) metrics.
+* **Implementation from Scratch:** A full manual implementation of Logistic Regression using Gradient Descent (without high-level libraries).
 
-- Performance Metrics: Detailed analysis using ROC curves and AUC (Area Under the Curve).
+### 2. [Stochastic Gradient Descent (SGD) & PyTorch](TP-SGD-Mahmoud-BAJJOU.ipynb)
+An introduction to the computational frameworks used in modern AI, focusing on optimization.
+* **PyTorch Mechanics:** Working with Tensors, Autograd (automatic differentiation), and hardware acceleration (CUDA/MPS).
+* **Gradient Descent:** Step-by-step implementation of the Chain Rule and Backpropagation.
+* **Training Dynamics:** Tracking training vs. test loss to identify and mitigate **overfitting**.
+* **Performance Monitoring:** Visualizing accuracy and loss convergence over multiple epochs.
 
-- Implementation from Scratch: A complete "home-made" implementation of logistic regression using gradient descent.
+### 3. [Avazu Click-Through Rate (CTR) Prediction](Avazu-Mahmoud-BAJJOU.ipynb)
+A large-scale applied project using real-world advertising data from Avazu.
+* **Big Data Challenges:** Handling and preprocessing massive, highly unbalanced datasets.
+* **Feature Hashing & Encoding:** Transforming categorical variables into numerical vectors suitable for modeling.
+* **Temporal Analysis:** Extracting predictive features from timestamps (hour of day, day of week).
+* **Real-world Evaluation:** Using Log-Loss and ROC analysis to predict the probability of an ad being clicked.
 
-## 2. Stochastic Gradient Descent (SGD) with PyTorch
-A deep dive into the mechanics of neural network optimization using the PyTorch framework.
+---
 
-- PyTorch Fundamentals: Working with Tensors, hardware acceleration (CUDA/MPS), and automatic differentiation.
+## 🛠 Technical Stack
+* **Languages:** Python
+* **Deep Learning:** PyTorch
+* **Data Science:** NumPy, Pandas, Scikit-Learn
+* **Visualization:** Matplotlib, Seaborn
 
-- Linear Regression: Demonstration of the chain rule and backpropagation for loss optimization.
+## 🚀 Setup and Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YourUsername/MachineLearning.git](https://github.com/YourUsername/MachineLearning.git)
+   ```
+2. Install requirements:
+   ```bash
+   pip install torch torchvision pandas numpy matplotlib scipy
+   ```
+3. Launch Jupyter Lab or Notebook:
+   ```bash
+   jupyter lab
+   ```
 
-- Optimization Algorithms: Low-level implementation and understanding of Stochastic Gradient Descent.
-
-- Best Practices: Guidelines for tracking train/test accuracy and detecting overfitting.
-
-## 3. Avazu CTR Prediction
-An applied project focused on predicting ad performance using 11 days of real-world data from the Avazu dataset.
-
-- Data Preprocessing: Handling massive, unbalanced datasets and performing dummy encoding on categorical variables.
-
-- Feature Analysis: Extracting temporal features (hour, weekday) and visualizing their influence on click frequency.
-
-- Modeling: Building and testing prediction models for high-dimensional feature vectors.
-
-- Metrics: Using ROC curves as a primary performance metric for unbalanced classification.
-
-## Key Libraries Used
-- Data Science: numpy, pandas, matplotlib, seaborn, scipy
-
-- Deep Learning: torch, torchvision
-
-### Author : Mahmoud Bajjou
+---
+**Author:** Mahmoud Bajjou
+   

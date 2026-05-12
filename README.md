@@ -42,5 +42,4 @@ An applied project focused on predicting ad performance using 11 days of real-wo
 
 - Deep Learning: torch, torchvision
 
-Author
-Mahmoud Bajjou
+### Author : Mahmoud Bajjou

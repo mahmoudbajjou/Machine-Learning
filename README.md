@@ -21,7 +21,7 @@ An introduction to the computational frameworks used in modern AI, focusing on o
 * **Training Dynamics:** Tracking training vs. test loss to identify and mitigate **overfitting**.
 * **Performance Monitoring:** Visualizing accuracy and loss convergence over multiple epochs.
 
-### 3. [Avazu Click-Through Rate (CTR) Prediction](Avazu-Mahmoud-BAJJOU.ipynb)
+### 3. [Avazu Click-Through Rate (CTR) Prediction](Avazu-CTR-Prediction.ipynb)
 A large-scale applied project using real-world advertising data from Avazu.
 * **Big Data Challenges:** Handling and preprocessing massive, highly unbalanced datasets.
 * **Feature Hashing & Encoding:** Transforming categorical variables into numerical vectors suitable for modeling.
